@@ -1,0 +1,144 @@
+{
+  "repo_notes": [
+    {
+      "content": "Este proyecto es una prueba"
+    }
+  ],
+  "pages": [
+    {
+      "title": "Project Overview",
+      "purpose": "High-level introduction to ReactColorPickerDemo — what it is, what it demonstrates, and how the pieces fit together. Links to child pages for setup and architecture details.",
+      "page_notes": [
+        {
+          "content": "Add emojies and icons to improve the description"
+        }
+      ]
+    },
+    {
+      "title": "Getting Started",
+      "purpose": "Step-by-step guide for cloning, installing dependencies, and running the app locally. Covers npm scripts (start, build, test, eject), prerequisites, and the development server.",
+      "parent": "Project Overview",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Project Structure",
+      "purpose": "Explains the repository layout — the public/ and src/ directories, what each file is responsible for, and how the build pipeline connects them.",
+      "parent": "Project Overview",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Application Architecture",
+      "purpose": "Overview of how the React component tree is structured and how data flows through the app. Introduces the three components and links to child pages for component details and styling.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Component Design",
+      "purpose": "Deep dive into the three React components defined in App.js: the App root, the stateful ColorPicker class, and the stateless ColorContainer functional component. Covers state initialization, onClick handlers, prop passing, and the unidirectional data-flow pattern.",
+      "parent": "Application Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Styling System",
+      "purpose": "Documents the CSS architecture across index.css and App.css — global resets, layout classes (.App, .App-header, .color-container, .button-container), color-state classes (.color-blue, .color-green, etc.), and the App-logo-spin animation.",
+      "parent": "Application Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Build & Runtime Infrastructure",
+      "purpose": "Overview of the toolchain and runtime support files. Links to child pages covering the dependency manifest, the PWA/public assets, and the service worker.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Dependencies & Build Pipeline",
+      "purpose": "Explains the package.json and package-lock.json in detail — React 17, react-scripts, the Webpack/Babel pipeline, SASS support, tinycolor2 color manipulation, and the four npm lifecycle scripts.",
+      "parent": "Build & Runtime Infrastructure",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Public Assets & PWA Configuration",
+      "purpose": "Covers the files in the public/ directory: index.html as the HTML shell and DOM mount point, manifest.json for Progressive Web App metadata (icons, display mode, theme/background colors), and favicon.ico multi-resolution icon structure.",
+      "parent": "Build & Runtime Infrastructure",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Service Worker & Offline Support",
+      "purpose": "Documents registerServiceWorker.js — how it detects localhost vs. production, registers/validates the service worker, handles cache-first serving, and exposes the unregister() escape hatch.",
+      "parent": "Build & Runtime Infrastructure",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "purpose": "Describes the testing strategy for the project — the smoke test in App.test.js, the jsdom environment, ReactDOM render/unmount lifecycle validation, and how to run tests with react-scripts.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Smoke Test: App Render",
+      "purpose": "In-depth look at the single test case in App.test.js — its three-phase lifecycle (setup, mount, unmount), what it validates, why ReactDOM.render is used instead of createRoot, and how to extend it with additional assertions.",
+      "parent": "Testing",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Test Environment & Configuration",
+      "purpose": "Explains the jsdom test environment flag in package.json, how react-scripts wraps Jest, and guidance for adding component-level or interaction tests in the future.",
+      "parent": "Testing",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Glossary",
+      "purpose": "Definitions of all codebase-specific terms, React concepts, CSS class names, and toolchain abbreviations that an onboarding engineer needs to know, each with code pointers.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    }
+  ]
+}
